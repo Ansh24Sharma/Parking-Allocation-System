@@ -1,0 +1,456 @@
+12-Nov-2024 17:28:30.116 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.97
+12-Nov-2024 17:28:30.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2024 19:55:19 UTC
+12-Nov-2024 17:28:30.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.97.0
+12-Nov-2024 17:28:30.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Nov-2024 17:28:30.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Nov-2024 17:28:30.120 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2024 17:28:30.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ansh.sharma\.jdks\openjdk-23.0.1
+12-Nov-2024 17:28:30.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+12-Nov-2024 17:28:30.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2024 17:28:30.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:28:30.121 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ansh.sharma\ContactBook\temp
+12-Nov-2024 17:28:30.132 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ansh.sharma\ContactBook\conf\logging.properties
+12-Nov-2024 17:28:30.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2024 17:28:30.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\lib\idea_rt.jar=61474:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin
+12-Nov-2024 17:28:30.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Nov-2024 17:28:30.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Nov-2024 17:28:30.133 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Nov-2024 17:28:30.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+12-Nov-2024 17:28:30.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Nov-2024 17:28:30.144 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Nov-2024 17:28:30.170 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Nov-2024 17:28:30.729 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:28:30.756 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [955] milliseconds
+12-Nov-2024 17:28:30.845 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2024 17:28:30.845 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.97]
+12-Nov-2024 17:28:30.858 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml]
+12-Nov-2024 17:28:30.881 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SpringContactApp] in deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has been ignored
+12-Nov-2024 17:28:30.904 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+12-Nov-2024 17:28:33.013 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2024 17:28:33.229 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Nov-2024 17:28:33.267 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Nov 12 17:28:33 IST 2024]; root of context hierarchy
+12-Nov-2024 17:28:33.390 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringRootConfig]
+12-Nov-2024 17:28:34.154 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 925 ms
+12-Nov-2024 17:28:34.177 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+12-Nov-2024 17:28:34.182 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:28:34 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:28:34.182 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringWebConfig]
+12-Nov-2024 17:28:34.709 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/get_time]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.getServerTime()
+12-Nov-2024 17:28:34.711 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/hello]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.helloWorld()
+12-Nov-2024 17:28:34.711 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/ajax_test]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.testPage()
+12-Nov-2024 17:28:34.712 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/ || /index]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.index(org.springframework.ui.Model)
+12-Nov-2024 17:28:34.713 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/logout]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.logout(javax.servlet.http.HttpSession)
+12-Nov-2024 17:28:34.713 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/change_status]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.changeLoginStatus(java.lang.Integer,java.lang.Integer)
+12-Nov-2024 17:28:34.713 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/users]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.getUserList(org.springframework.ui.Model)
+12-Nov-2024 17:28:34.713 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.userDashboard()
+12-Nov-2024 17:28:34.713 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.adminDashboard()
+12-Nov-2024 17:28:34.714 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/register]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registerUser(com.yash.parkingallocation.command.UserCommand,org.springframework.ui.Model)
+12-Nov-2024 17:28:34.714 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.handleLogin(com.yash.parkingallocation.command.LoginCommand,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+12-Nov-2024 17:28:34.714 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/check_avail]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.checkAvailability(java.lang.String)
+12-Nov-2024 17:28:34.714 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/reg_form]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registrationForm(org.springframework.ui.Model)
+12-Nov-2024 17:28:34.759 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-Nov-2024 17:28:34.920 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:28:34 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:28:35.132 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 955 ms
+12-Nov-2024 17:28:35.146 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has finished in [4,288] ms
+12-Nov-2024 17:28:35.151 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:28:35.184 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4425] milliseconds
+12-Nov-2024 17:31:50.933 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:31:50.940 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2024 17:31:50.943 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:28:34 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:31:50.955 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Nov 12 17:28:33 IST 2024]; root of context hierarchy
+12-Nov-2024 17:31:50.968 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [capp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+12-Nov-2024 17:31:50.968 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [capp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:79)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:151)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:229)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+12-Nov-2024 17:31:50.976 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:31:50.988 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:31:56.544 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.97
+12-Nov-2024 17:31:56.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2024 19:55:19 UTC
+12-Nov-2024 17:31:56.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.97.0
+12-Nov-2024 17:31:56.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ansh.sharma\.jdks\openjdk-23.0.1
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:31:56.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:31:56.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Nov-2024 17:31:56.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Nov-2024 17:31:56.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Nov-2024 17:31:56.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Nov-2024 17:31:56.562 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ansh.sharma\ContactBook\temp
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ansh.sharma\ContactBook\conf\logging.properties
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\lib\idea_rt.jar=61546:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Nov-2024 17:31:56.563 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Nov-2024 17:31:56.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+12-Nov-2024 17:31:56.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Nov-2024 17:31:56.570 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Nov-2024 17:31:56.591 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Nov-2024 17:31:57.919 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:31:57.965 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1739] milliseconds
+12-Nov-2024 17:31:58.055 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2024 17:31:58.055 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.97]
+12-Nov-2024 17:31:58.089 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml]
+12-Nov-2024 17:31:58.179 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SpringContactApp] in deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has been ignored
+12-Nov-2024 17:31:58.233 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+12-Nov-2024 17:32:00.905 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2024 17:32:01.215 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Nov-2024 17:32:01.278 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Nov 12 17:32:01 IST 2024]; root of context hierarchy
+12-Nov-2024 17:32:01.449 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringRootConfig]
+12-Nov-2024 17:32:02.367 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1152 ms
+12-Nov-2024 17:32:02.407 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+12-Nov-2024 17:32:02.416 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:32:02 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:32:02.418 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringWebConfig]
+12-Nov-2024 17:32:03.089 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/get_time]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.getServerTime()
+12-Nov-2024 17:32:03.091 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/hello]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.helloWorld()
+12-Nov-2024 17:32:03.092 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/ajax_test]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.testPage()
+12-Nov-2024 17:32:03.094 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/ || /index]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.index(org.springframework.ui.Model)
+12-Nov-2024 17:32:03.094 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/logout]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.logout(javax.servlet.http.HttpSession)
+12-Nov-2024 17:32:03.094 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.userDashboard()
+12-Nov-2024 17:32:03.094 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.adminDashboard()
+12-Nov-2024 17:32:03.095 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/reg_form]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registrationForm(org.springframework.ui.Model)
+12-Nov-2024 17:32:03.095 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.handleLogin(com.yash.parkingallocation.command.LoginCommand,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+12-Nov-2024 17:32:03.095 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/check_avail]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.checkAvailability(java.lang.String)
+12-Nov-2024 17:32:03.095 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/register]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registerUser(com.yash.parkingallocation.command.UserCommand,org.springframework.ui.Model)
+12-Nov-2024 17:32:03.096 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/users]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.getUserList(org.springframework.ui.Model)
+12-Nov-2024 17:32:03.096 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/change_status]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.changeLoginStatus(java.lang.Integer,java.lang.Integer)
+12-Nov-2024 17:32:03.156 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-Nov-2024 17:32:03.375 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:32:02 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:32:03.652 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1245 ms
+12-Nov-2024 17:32:03.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has finished in [5,578] ms
+12-Nov-2024 17:32:03.673 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:32:03.708 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5740] milliseconds
+12-Nov-2024 17:37:56.705 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:37:56.709 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2024 17:37:56.712 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:32:02 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:37:56.725 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Nov 12 17:32:01 IST 2024]; root of context hierarchy
+12-Nov-2024 17:37:56.747 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [capp] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+12-Nov-2024 17:37:56.748 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [capp] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1852)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:79)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:151)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:229)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1575)
+12-Nov-2024 17:37:56.757 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:37:56.766 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:37:56.805 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:985)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+12-Nov-2024 17:37:56.806 INFO [mysql-cj-abandoned-connection-cleanup] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load []. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+		at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1359)
+		at org.apache.catalina.loader.WebappClassLoaderBase.getResource(WebappClassLoaderBase.java:985)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.checkThreadContextClassLoader(AbandonedConnectionCleanupThread.java:123)
+		at com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:90)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at java.base/java.lang.Thread.run(Thread.java:1575)
+12-Nov-2024 17:37:59.830 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.97
+12-Nov-2024 17:37:59.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2024 19:55:19 UTC
+12-Nov-2024 17:37:59.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.97.0
+12-Nov-2024 17:37:59.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Nov-2024 17:37:59.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Nov-2024 17:37:59.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2024 17:37:59.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ansh.sharma\.jdks\openjdk-23.0.1
+12-Nov-2024 17:37:59.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+12-Nov-2024 17:37:59.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2024 17:37:59.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:37:59.837 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:37:59.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Nov-2024 17:37:59.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Nov-2024 17:37:59.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Nov-2024 17:37:59.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Nov-2024 17:37:59.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Nov-2024 17:37:59.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:37:59.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:37:59.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ansh.sharma\ContactBook\temp
+12-Nov-2024 17:37:59.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ansh.sharma\ContactBook\conf\logging.properties
+12-Nov-2024 17:37:59.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2024 17:37:59.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\lib\idea_rt.jar=61688:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin
+12-Nov-2024 17:37:59.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Nov-2024 17:37:59.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Nov-2024 17:37:59.850 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Nov-2024 17:37:59.858 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+12-Nov-2024 17:37:59.858 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Nov-2024 17:37:59.858 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Nov-2024 17:37:59.874 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Nov-2024 17:38:00.527 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:38:00.557 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1041] milliseconds
+12-Nov-2024 17:38:00.630 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2024 17:38:00.632 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.97]
+12-Nov-2024 17:38:00.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml]
+12-Nov-2024 17:38:00.675 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SpringContactApp] in deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has been ignored
+12-Nov-2024 17:38:00.695 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+12-Nov-2024 17:38:03.292 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2024 17:38:03.592 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Nov-2024 17:38:03.648 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Nov 12 17:38:03 IST 2024]; root of context hierarchy
+12-Nov-2024 17:38:03.810 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringRootConfig]
+12-Nov-2024 17:38:04.796 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1203 ms
+12-Nov-2024 17:38:04.837 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+12-Nov-2024 17:38:04.845 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:38:04 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:38:04.846 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringWebConfig]
+12-Nov-2024 17:38:05.527 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/get_time]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.getServerTime()
+12-Nov-2024 17:38:05.529 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/ajax_test]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.testPage()
+12-Nov-2024 17:38:05.529 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/hello]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.helloWorld()
+12-Nov-2024 17:38:05.531 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/ || /index]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.index(org.springframework.ui.Model)
+12-Nov-2024 17:38:05.532 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/logout]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.logout(javax.servlet.http.HttpSession)
+12-Nov-2024 17:38:05.532 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/check_avail]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.checkAvailability(java.lang.String)
+12-Nov-2024 17:38:05.532 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.userDashboard()
+12-Nov-2024 17:38:05.533 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.adminDashboard()
+12-Nov-2024 17:38:05.533 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.handleLogin(com.yash.parkingallocation.command.LoginCommand,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+12-Nov-2024 17:38:05.534 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/reg_form]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registrationForm(org.springframework.ui.Model)
+12-Nov-2024 17:38:05.534 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/register]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registerUser(com.yash.parkingallocation.command.UserCommand,org.springframework.ui.Model)
+12-Nov-2024 17:38:05.534 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/change_status]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.changeLoginStatus(java.lang.Integer,java.lang.Integer)
+12-Nov-2024 17:38:05.534 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/users]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.getUserList(org.springframework.ui.Model)
+12-Nov-2024 17:38:05.591 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-Nov-2024 17:38:05.810 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:38:04 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:38:06.100 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1262 ms
+12-Nov-2024 17:38:06.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has finished in [5,473] ms
+12-Nov-2024 17:38:06.132 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:38:06.173 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5614] milliseconds
+12-Nov-2024 17:38:57.987 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:38:57.992 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2024 17:38:57.994 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:38:04 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:38:57.999 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Nov 12 17:38:03 IST 2024]; root of context hierarchy
+12-Nov-2024 17:38:58.025 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:38:58.036 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:39:23.719 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.97
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2024 19:55:19 UTC
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.97.0
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ansh.sharma\.jdks\openjdk-23.0.1
+12-Nov-2024 17:39:23.723 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+12-Nov-2024 17:39:23.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2024 17:39:23.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:39:23.724 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:39:23.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ansh.sharma\ContactBook\temp
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ansh.sharma\ContactBook\conf\logging.properties
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\lib\idea_rt.jar=61717:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Nov-2024 17:39:23.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Nov-2024 17:39:23.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+12-Nov-2024 17:39:23.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Nov-2024 17:39:23.745 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Nov-2024 17:39:23.758 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Nov-2024 17:39:24.330 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:39:24.361 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [925] milliseconds
+12-Nov-2024 17:39:24.436 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2024 17:39:24.436 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.97]
+12-Nov-2024 17:39:24.448 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml]
+12-Nov-2024 17:39:24.477 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SpringContactApp] in deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has been ignored
+12-Nov-2024 17:39:24.497 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+12-Nov-2024 17:39:26.660 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2024 17:39:26.879 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Nov-2024 17:39:26.921 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Nov 12 17:39:26 IST 2024]; root of context hierarchy
+12-Nov-2024 17:39:27.037 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringRootConfig]
+12-Nov-2024 17:39:27.776 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 897 ms
+12-Nov-2024 17:39:27.805 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+12-Nov-2024 17:39:27.811 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:39:27 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:39:27.812 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringWebConfig]
+12-Nov-2024 17:39:28.348 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/get_time]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.getServerTime()
+12-Nov-2024 17:39:28.350 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/ajax_test]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.testPage()
+12-Nov-2024 17:39:28.350 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/hello]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.helloWorld()
+12-Nov-2024 17:39:28.352 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/ || /index]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.index(org.springframework.ui.Model)
+12-Nov-2024 17:39:28.352 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/logout]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.logout(javax.servlet.http.HttpSession)
+12-Nov-2024 17:39:28.353 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/users]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.getUserList(org.springframework.ui.Model)
+12-Nov-2024 17:39:28.353 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/change_status]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.changeLoginStatus(java.lang.Integer,java.lang.Integer)
+12-Nov-2024 17:39:28.353 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/check_avail]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.checkAvailability(java.lang.String)
+12-Nov-2024 17:39:28.353 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/register]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registerUser(com.yash.parkingallocation.command.UserCommand,org.springframework.ui.Model)
+12-Nov-2024 17:39:28.354 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.adminDashboard()
+12-Nov-2024 17:39:28.354 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.userDashboard()
+12-Nov-2024 17:39:28.354 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.handleLogin(com.yash.parkingallocation.command.LoginCommand,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+12-Nov-2024 17:39:28.354 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/reg_form]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registrationForm(org.springframework.ui.Model)
+12-Nov-2024 17:39:28.402 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-Nov-2024 17:39:28.568 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:39:27 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:39:28.872 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1067 ms
+12-Nov-2024 17:39:28.887 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has finished in [4,438] ms
+12-Nov-2024 17:39:28.894 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:39:28.930 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [4567] milliseconds
+12-Nov-2024 17:45:07.183 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:07.214 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2024 17:45:07.267 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:39:27 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:45:07.341 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Nov 12 17:39:26 IST 2024]; root of context hierarchy
+12-Nov-2024 17:45:07.417 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:07.436 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:11.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.97
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2024 19:55:19 UTC
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.97.0
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ansh.sharma\.jdks\openjdk-23.0.1
+12-Nov-2024 17:45:11.643 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+12-Nov-2024 17:45:11.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2024 17:45:11.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:45:11.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:45:11.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Nov-2024 17:45:11.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Nov-2024 17:45:11.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Nov-2024 17:45:11.654 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ansh.sharma\ContactBook\temp
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ansh.sharma\ContactBook\conf\logging.properties
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\lib\idea_rt.jar=61793:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Nov-2024 17:45:11.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Nov-2024 17:45:11.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+12-Nov-2024 17:45:11.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Nov-2024 17:45:11.662 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Nov-2024 17:45:11.682 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Nov-2024 17:45:12.360 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:12.390 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1099] milliseconds
+12-Nov-2024 17:45:12.502 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2024 17:45:12.503 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.97]
+12-Nov-2024 17:45:12.522 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml]
+12-Nov-2024 17:45:12.556 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SpringContactApp] in deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has been ignored
+12-Nov-2024 17:45:12.591 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+12-Nov-2024 17:45:15.840 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2024 17:45:16.129 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Nov-2024 17:45:16.187 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Nov 12 17:45:16 IST 2024]; root of context hierarchy
+12-Nov-2024 17:45:16.338 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringRootConfig]
+12-Nov-2024 17:45:17.226 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1096 ms
+12-Nov-2024 17:45:17.271 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+12-Nov-2024 17:45:17.278 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:45:17 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:45:17.280 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringWebConfig]
+12-Nov-2024 17:45:17.946 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/hello]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.helloWorld()
+12-Nov-2024 17:45:17.948 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/ajax_test]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.testPage()
+12-Nov-2024 17:45:17.949 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/get_time]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.getServerTime()
+12-Nov-2024 17:45:17.951 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/ || /index]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.index(org.springframework.ui.Model)
+12-Nov-2024 17:45:17.952 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/logout]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.logout(javax.servlet.http.HttpSession)
+12-Nov-2024 17:45:17.952 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.userDashboard()
+12-Nov-2024 17:45:17.952 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.handleLogin(com.yash.parkingallocation.command.LoginCommand,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+12-Nov-2024 17:45:17.952 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.adminDashboard()
+12-Nov-2024 17:45:17.953 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/reg_form]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registrationForm(org.springframework.ui.Model)
+12-Nov-2024 17:45:17.953 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/register]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registerUser(com.yash.parkingallocation.command.UserCommand,org.springframework.ui.Model)
+12-Nov-2024 17:45:17.953 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/check_avail]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.checkAvailability(java.lang.String)
+12-Nov-2024 17:45:17.953 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/change_status]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.changeLoginStatus(java.lang.Integer,java.lang.Integer)
+12-Nov-2024 17:45:17.953 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/users]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.getUserList(org.springframework.ui.Model)
+12-Nov-2024 17:45:18.012 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-Nov-2024 17:45:18.224 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:45:17 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:45:18.529 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1258 ms
+12-Nov-2024 17:45:18.547 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has finished in [6,024] ms
+12-Nov-2024 17:45:18.553 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:18.592 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6199] milliseconds
+12-Nov-2024 17:45:39.031 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:39.037 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2024 17:45:39.040 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:45:17 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:45:39.045 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Nov 12 17:45:16 IST 2024]; root of context hierarchy
+12-Nov-2024 17:45:39.062 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:45:39.081 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:46:18.588 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.97
+12-Nov-2024 17:46:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 6 2024 19:55:19 UTC
+12-Nov-2024 17:46:18.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.97.0
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\ansh.sharma\.jdks\openjdk-23.0.1
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           23.0.1+11-39
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:46:18.593 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:46:18.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Nov-2024 17:46:18.603 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\ansh.sharma\apache-tomcat-9.0.97
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\ansh.sharma\ContactBook
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\ansh.sharma\ContactBook\temp
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\ansh.sharma\ContactBook\conf\logging.properties
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\lib\idea_rt.jar=61809:C:\Users\ansh.sharma\AppData\Local\JetBrains\IntelliJ IDEA Community Edition 2024.2.2\bin
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+12-Nov-2024 17:46:18.604 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+12-Nov-2024 17:46:18.609 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+12-Nov-2024 17:46:18.610 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+12-Nov-2024 17:46:18.610 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+12-Nov-2024 17:46:18.621 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+12-Nov-2024 17:46:19.183 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:46:19.211 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [911] milliseconds
+12-Nov-2024 17:46:19.288 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Nov-2024 17:46:19.288 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.97]
+12-Nov-2024 17:46:19.303 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml]
+12-Nov-2024 17:46:19.328 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/SpringContactApp] in deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has been ignored
+12-Nov-2024 17:46:19.350 WARNING [main] org.apache.tomcat.util.digester.SetPropertiesRule.begin Match [Context] failed to set property [antiJARLocking] to [true]
+12-Nov-2024 17:46:21.622 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Nov-2024 17:46:21.894 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization started
+12-Nov-2024 17:46:21.943 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing Root WebApplicationContext: startup date [Tue Nov 12 17:46:21 IST 2024]; root of context hierarchy
+12-Nov-2024 17:46:22.098 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringRootConfig]
+12-Nov-2024 17:46:22.990 INFO [main] org.springframework.web.context.ContextLoader.initWebApplicationContext Root WebApplicationContext: initialization completed in 1095 ms
+12-Nov-2024 17:46:23.029 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+12-Nov-2024 17:46:23.036 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:46:23 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:46:23.038 INFO [main] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.loadBeanDefinitions Registering annotated classes: [class com.yash.parkingallocation.config.SpringWebConfig]
+12-Nov-2024 17:46:23.688 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/ajax_test]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.testPage()
+12-Nov-2024 17:46:23.690 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/hello]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.helloWorld()
+12-Nov-2024 17:46:23.690 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/test/get_time]}" onto public java.lang.String com.yash.parkingallocation.controller.TestController.getServerTime()
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/ || /index]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.index(org.springframework.ui.Model)
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/logout]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.logout(javax.servlet.http.HttpSession)
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/change_status]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.changeLoginStatus(java.lang.Integer,java.lang.Integer)
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/users]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.getUserList(org.springframework.ui.Model)
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/register]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registerUser(com.yash.parkingallocation.command.UserCommand,org.springframework.ui.Model)
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/login],methods=[POST]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.handleLogin(com.yash.parkingallocation.command.LoginCommand,org.springframework.ui.Model,javax.servlet.http.HttpSession)
+12-Nov-2024 17:46:23.692 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/check_avail]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.checkAvailability(java.lang.String)
+12-Nov-2024 17:46:23.693 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/admin/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.adminDashboard()
+12-Nov-2024 17:46:23.693 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/reg_form]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.registrationForm(org.springframework.ui.Model)
+12-Nov-2024 17:46:23.693 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/user/dashboard]}" onto public java.lang.String com.yash.parkingallocation.controller.UserController.userDashboard()
+12-Nov-2024 17:46:23.754 INFO [main] org.springframework.web.servlet.handler.SimpleUrlHandlerMapping.registerHandler Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+12-Nov-2024 17:46:23.935 INFO [main] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:46:23 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:46:24.232 INFO [main] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 1203 ms
+12-Nov-2024 17:46:24.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\ansh.sharma\ContactBook\conf\Catalina\localhost\capp.xml] has finished in [4,944] ms
+12-Nov-2024 17:46:24.253 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:46:24.295 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5081] milliseconds
+12-Nov-2024 17:47:57.287 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:47:57.292 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Nov-2024 17:47:57.295 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Tue Nov 12 17:46:23 IST 2024]; parent: Root WebApplicationContext
+12-Nov-2024 17:47:57.300 INFO [Thread-1] org.springframework.web.context.support.AnnotationConfigWebApplicationContext.doClose Closing Root WebApplicationContext: startup date [Tue Nov 12 17:46:21 IST 2024]; root of context hierarchy
+12-Nov-2024 17:47:57.315 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Nov-2024 17:47:57.334 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
