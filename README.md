@@ -109,6 +109,6 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 ## Contact
 
-Your Name - [your.email@example.com](mailto:your.email@example.com)
+Ansh Sharma - [ansh1313jan@gmail.com](mailto:ansh1313jan@gmail.com)
 
 Project Link: [https://github.com/yourusername/parking-allocation-system](https://github.com/yourusername/parking-allocation-system)
