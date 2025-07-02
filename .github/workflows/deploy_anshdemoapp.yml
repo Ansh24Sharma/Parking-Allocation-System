@@ -50,4 +50,4 @@ jobs:
           app-name: 'anshdemoapp'
           slot-name: 'Production'
           package: '*.war'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E4A00151450A4B148581AB9CCF5F986D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_584DBC9322D7466697AE03CB2EAECBEA }}
