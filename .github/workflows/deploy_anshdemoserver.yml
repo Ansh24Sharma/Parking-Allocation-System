@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'anshdemoserver'
           slot-name: 'Production'
-          package: '*.war'
+          package: 'java-app/*.war'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5A15F73EB67441A4AF68151608BF2ED8 }}
