@@ -1,0 +1,4 @@
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:14:54:01 +0530] "GET /parkingallocation HTTP/1.1" 404 682
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:14:54:08 +0530] "GET /parkingallocation HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:14:54:09 +0530] "GET /parkingallocation/ HTTP/1.1" 200 5717
+0:0:0:0:0:0:0:1 - - [16/Nov/2024:14:54:09 +0530] "GET /api/placeholder/1920/800 HTTP/1.1" 404 682
